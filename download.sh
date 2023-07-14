@@ -1,5 +1,7 @@
 #!/bin/bash
 
+VERSION="1.40.0"
+
 # VERSION SHOULD BE IN ENV
 TSFILE=tailscale_${VERSION}_amd64.tgz
 PACKAGE="https://pkgs.tailscale.com/stable/${TSFILE}"
